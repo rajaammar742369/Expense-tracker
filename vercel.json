@@ -13,35 +13,3 @@
     }
   ]
 }
-```
-
----
-
-### Step 2: GitHub Par Upload Karo
-👉 **https://github.com** → New Repository → `expense-bot`
-
-Ye **3 files** upload karo:
-- `app.py`
-- `requirements.txt`
-- `vercel.json`
-
----
-
-### Step 3: Vercel Par Deploy Karo
-👉 **https://vercel.com** → GitHub se login karo
-
-1. **"Add New Project"** click karo
-2. `expense-bot` repo select karo
-3. **"Deploy"** dabao ✅
-
----
-
-### Step 4: URL Milega
-```
-https://expense-bot.vercel.app
-```
-
-### Step 5: Meta Webhook Update Karo
-```
-Callback URL: https://expense-bot.vercel.app/webhook
-Verify Token: myexpensebot123
